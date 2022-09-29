@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.hero",
+        "atomos.beneficio",
+        "atomos.boton",
+        "atomos.barra-de-busqueda",
+        "blocks.metodos-de-pago",
+        "blocks.carrusel-de-categorias",
+        "blocks.productos-destacados",
+        "blocks.carrusel-de-banners"
+      ]
+    }
+  }
+}

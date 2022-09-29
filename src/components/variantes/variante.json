@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_variantes_variantes",
+  "info": {
+    "displayName": "Variante Dinámica",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "valor": {
+      "type": "string"
+    },
+    "stock": {
+      "type": "integer"
+    },
+    "sku": {
+      "type": "string",
+      "unique": true
+    }
+  }
+}

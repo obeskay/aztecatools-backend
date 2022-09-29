@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_atomos_barra_de_busquedas",
+  "info": {
+    "displayName": "Barra de búsqueda"
+  },
+  "options": {},
+  "attributes": {
+    "placeholder": {
+      "type": "string"
+    }
+  }
+}

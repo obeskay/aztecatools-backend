@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_atomos_iconos",
+  "info": {
+    "displayName": "Icono",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "variante": {
+      "type": "enumeration",
+      "enum": [
+        "search",
+        "arrow-left",
+        "chevron-right",
+        "cart",
+        "package",
+        "chevron-down",
+        "blunt",
+        "grinder",
+        "bong",
+        "encendedor",
+        "gotero",
+        "plumita"
+      ]
+    }
+  }
+}

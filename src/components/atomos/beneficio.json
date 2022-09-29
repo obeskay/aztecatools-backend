@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_atomos_beneficios",
+  "info": {
+    "displayName": "beneficio"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "contenido": {
+      "type": "string"
+    },
+    "icono": {
+      "type": "enumeration",
+      "enum": [
+        "search",
+        "arrow-left",
+        "chevron-right",
+        "cart",
+        "package",
+        "chevron-down"
+      ]
+    }
+  }
+}

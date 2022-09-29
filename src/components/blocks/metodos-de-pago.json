@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_metodos_de_pagos",
+  "info": {
+    "displayName": "Métodos de pago",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "PrimeraLinea": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atomos.metodo-de-pago"
+    },
+    "SegundaLinea": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atomos.metodo-de-pago"
+    }
+  }
+}

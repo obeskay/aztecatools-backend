@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_atomos_metodo_de_pagos",
+  "info": {
+    "displayName": "Método de pago",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Logotipo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "nombre": {
+      "type": "string"
+    }
+  }
+}

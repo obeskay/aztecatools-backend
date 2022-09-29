@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_atomos_botons",
+  "info": {
+    "displayName": "Boton",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "texto": {
+      "type": "string"
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "verde",
+        "amarillo",
+        "claro",
+        "oscuro"
+      ]
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

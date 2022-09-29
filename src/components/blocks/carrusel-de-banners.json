@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_carrusel_de_banners",
+  "info": {
+    "displayName": "Carrusel de banners"
+  },
+  "options": {},
+  "attributes": {
+    "Banners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.hero",
+      "required": true,
+      "min": 1
+    }
+  }
+}

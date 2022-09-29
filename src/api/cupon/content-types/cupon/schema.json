@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cupones",
+  "info": {
+    "singularName": "cupon",
+    "pluralName": "cupones",
+    "displayName": "Cupón",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "descuento": {
+      "type": "decimal"
+    },
+    "validoHasta": {
+      "type": "datetime"
+    },
+    "validoDesde": {
+      "type": "datetime"
+    },
+    "productosAplicables": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::producto.producto"
+    },
+    "productosExcluidos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::producto.producto"
+    },
+    "usosRestantes": {
+      "type": "integer"
+    },
+    "usados": {
+      "type": "integer"
+    },
+    "nombre": {
+      "type": "string"
+    },
+    "codigo": {
+      "type": "uid"
+    },
+    "activo": {
+      "type": "boolean"
+    }
+  }
+}

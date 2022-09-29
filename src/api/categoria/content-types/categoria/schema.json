@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categorias",
+  "info": {
+    "singularName": "categoria",
+    "pluralName": "categorias",
+    "displayName": "Categoria",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "portada": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "contenido": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.hero"
+      ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "nombre",
+      "required": false
+    },
+    "subcategorias": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::subcategoria.subcategoria",
+      "mappedBy": "categoria"
+    },
+    "productos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::producto.producto",
+      "mappedBy": "categoria"
+    },
+    "orden": {
+      "type": "integer"
+    },
+    "icono": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atomos.icono"
+    }
+  }
+}

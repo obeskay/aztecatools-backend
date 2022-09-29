@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_productos_destacados",
+  "info": {
+    "displayName": "Productos destacados"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "productos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::producto.producto"
+    }
+  }
+}

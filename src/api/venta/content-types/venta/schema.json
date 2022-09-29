@@ -1,0 +1,114 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ventas",
+  "info": {
+    "singularName": "venta",
+    "pluralName": "ventas",
+    "displayName": "Venta",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "productos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::producto.producto"
+    },
+    "correoCliente": {
+      "type": "email"
+    },
+    "telefonoCliente": {
+      "type": "string"
+    },
+    "codigoPostalDireccionCliente": {
+      "type": "string"
+    },
+    "calleDireccionCliente": {
+      "type": "string"
+    },
+    "numeroExteriorDireccionCliente": {
+      "type": "string"
+    },
+    "numeroInteriorDireccionCliente": {
+      "type": "string"
+    },
+    "metodoEnvio": {
+      "type": "string"
+    },
+    "metodoPago": {
+      "type": "string"
+    },
+    "fechaDePago": {
+      "type": "datetime"
+    },
+    "fechaDeEnvio": {
+      "type": "datetime"
+    },
+    "uuidVenta": {
+      "type": "uid"
+    },
+    "coloniaDireccionCliente": {
+      "type": "string"
+    },
+    "municipioDireccionCliente": {
+      "type": "string"
+    },
+    "estadoDireccionCliente": {
+      "type": "string"
+    },
+    "tipoEnvio": {
+      "type": "string"
+    },
+    "referenciasDireccionCliente": {
+      "type": "string"
+    },
+    "pagado": {
+      "type": "boolean",
+      "default": false
+    },
+    "entregado": {
+      "type": "boolean",
+      "default": false
+    },
+    "comentarios": {
+      "type": "string"
+    },
+    "enviado": {
+      "type": "boolean",
+      "default": false
+    },
+    "fechaDeEntrega": {
+      "type": "datetime"
+    },
+    "total": {
+      "type": "float"
+    },
+    "cantidadDescontada": {
+      "type": "float"
+    },
+    "cupon": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::cupon.cupon"
+    },
+    "activa": {
+      "type": "boolean",
+      "default": false
+    },
+    "subtotalProductos": {
+      "type": "float"
+    },
+    "costoEnvio": {
+      "type": "float"
+    },
+    "nombreCliente": {
+      "type": "string"
+    },
+    "contactado": {
+      "type": "boolean"
+    }
+  }
+}

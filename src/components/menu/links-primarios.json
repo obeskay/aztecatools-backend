@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_menu_links_primarios",
+  "info": {
+    "displayName": "Links primarios",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "linksSecundarios": {
+      "displayName": "Links secundarios",
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.links-secundarios"
+    }
+  }
+}

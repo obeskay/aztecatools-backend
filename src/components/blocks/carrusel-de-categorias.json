@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_blocks_carrusel_de_categorias",
+  "info": {
+    "displayName": "Carrusel de categorías"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    }
+  }
+}

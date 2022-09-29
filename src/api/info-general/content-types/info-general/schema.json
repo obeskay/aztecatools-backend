@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "info_generals",
+  "info": {
+    "singularName": "info-general",
+    "pluralName": "info-generals",
+    "displayName": "Info General"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "contenido": {
+      "type": "richtext"
+    }
+  }
+}

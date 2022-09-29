@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "metodos_de_envio",
+  "info": {
+    "singularName": "metodo-de-envio",
+    "pluralName": "metodos-de-envio",
+    "displayName": "Método de envío",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "costoBase": {
+      "type": "float"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "costoKm": {
+      "type": "float"
+    },
+    "radioKmDisponibleMax": {
+      "type": "decimal"
+    },
+    "radioKmDisponibleMin": {
+      "type": "decimal",
+      "default": 0
+    }
+  }
+}

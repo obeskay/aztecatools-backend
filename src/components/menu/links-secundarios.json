@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_menu_links_secundarios",
+  "info": {
+    "displayName": "Links secundarios"
+  },
+  "options": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
